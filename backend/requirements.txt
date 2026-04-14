@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+google-genai
+pytesseract
+pypdf
+python-docx
+Pillow>=10.4.0
+python-dotenv

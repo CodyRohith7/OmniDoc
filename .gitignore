@@ -1,0 +1,38 @@
+# =====  ENVIRONMENT & SECRETS  =====
+.env
+.env.local
+.env.*.local
+*.env
+
+# =====  NODE / FRONTEND  =====
+node_modules/
+.next/
+dist/
+build/
+out/
+.vercel
+
+# =====  PYTHON / BACKEND  =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+.pytest_cache/
+
+# =====  EDITORS & OS  =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# =====  PROJECT SPECIFIC  =====
+.gemini/
+available_models.txt
+list_models.py
+list_models_v2.py
